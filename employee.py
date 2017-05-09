@@ -23,6 +23,7 @@ class Employee(object):
 
 class Manager(Employee):
     def __init__(self, name, payroll_number, experience_level='junior'):
+        super(Manager, self).__init__(name, payroll_number, experience_level)
         self.hourly_rate = 60 if experience_level == 'junior' else 120 if experience_level == 'mid_level' else 200
         self.vacation_days_left = 30
 
@@ -43,6 +44,7 @@ class Manager(Employee):
 
 
 # Engineer = Employee('Peter', '012345', 'mid_level')
-# Recruitment_Manager = Manager('Zipporah', '123456', 'mid_level')
+Recruitment_Manager = Manager('Zipporah', '123456', 'mid_level')
 # print Engineer.net_pay()
 # print Recruitment_Manager.annual_bonus(79)
+print Recruitment_Manager.experience_level

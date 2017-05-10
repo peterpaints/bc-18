@@ -44,7 +44,7 @@ class Manager(Employee):
 
 
 # Engineer = Employee('Peter', '012345', 'mid_level')
-Recruitment_Manager = Manager('Zipporah', '123456', 'mid_level')
+# Recruitment_Manager = Manager('Zipporah', '123456', 'mid_level')
 # print Engineer.net_pay()
 # print Recruitment_Manager.annual_bonus(79)
-print Recruitment_Manager.experience_level
+# print Recruitment_Manager.experience_level

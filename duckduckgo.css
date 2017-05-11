@@ -1,0 +1,295 @@
+body {
+  background: linear-gradient(to bottom right, #f7f7f7, #bcbdc4);
+  height: 3500px;
+}
+
+.fa-twitter {
+  position: absolute;
+  top: 10px;
+  right: 40px;
+  font-size: 2em;
+  color: gray;
+}
+
+.fa-facebook {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 2em;
+  color: gray;
+}
+
+a:focus, a:visited, a:hover {
+  outline: none;
+  text-decoration: none;
+  color: gray;
+  opacity: 0.7;
+}
+
+.screen {
+  height: 700px;
+}
+
+#screen1 {
+  padding-top: 200px;
+}
+
+#logo {
+  text-decoration: none;
+  color: #3f3f3f;
+}
+
+#logo:focus, #logo:visited, #logo:hover {
+  outline: none;
+}
+
+.logo, .title, .search, .slogan, .down {
+  text-align: center;
+}
+
+.logo img {
+  height: 120px;
+  width: 120px;
+}
+
+.title p {
+  font-family: Ubuntu;
+  font-size: 2.2em;
+}
+
+#search {
+  background: #f7f7f7 url(http://www.endlessicons.com/wp-content/uploads/2015/08/search-icon-2.png) no-repeat 500px center;
+  background-size: 60px;
+  width: 500px;
+  height: 45px;
+  padding-right: 45px;
+  padding-left: 15px;
+  box-sizing: content-box;
+  border: 1px solid gray;
+}
+
+.slogan p {
+  font-family: Verdana;
+  font-weight: lighter;
+  color: gray;
+  font-size: 1.2em;
+  margin-top: 20px;
+}
+
+#learn_more {
+  color: #102556;
+}
+
+#screen2 {
+  background-color: #7ed3a3;
+  padding-top: 80px;
+}
+
+.disclaimer, .privacy, .extension, .monster {
+  text-align: center;
+}
+
+.disclaimer p {
+  font-family: Ubuntu;
+  font-weight: bold;
+  font-size: 3em;
+  color: white;
+  /*text-shadow: 0px 0px black;*/
+}
+
+.privacy p {
+  font-family: Ubuntu;
+  font-size: 1.4em;
+  color: white;
+  margin-top: 20px;
+  /*text-shadow: 0px 0px black;*/
+}
+
+.extension button {
+  margin-top: 30px;
+  background-color: #3f6650;
+  border: none;
+  font-weight: bold;
+}
+
+.extension button:hover, .extension button:active {
+  outline: none;
+  text-decoration: none;
+  background-color: #3f6650;
+  opacity: 0.7;
+}
+
+.monster img {
+  margin-top: 42px;
+  height: 300px;
+}
+
+#screen3 {
+  background-color: #f4a966;
+  padding-top: 80px;
+}
+
+.noads, .nohistory, .extension2, .ghoul {
+  text-align: center;
+}
+
+.noads p {
+  font-family: Ubuntu;
+  font-weight: bold;
+  font-size: 3em;
+  color: white;
+  /*text-shadow: 0px 0px black;*/
+}
+
+.nohistory p {
+  font-family: Ubuntu;
+  font-size: 1.4em;
+  color: white;
+  margin-top: 20px;
+  /*text-shadow: 0px 0px black;*/
+}
+
+.extension2 button {
+  margin-top: 30px;
+  background-color: #3f6650;
+  border: none;
+  font-weight: bold;
+}
+
+.extension2 button:hover, .extension2 button:active {
+  outline: none;
+  text-decoration: none;
+  background-color: #3f6650;
+  opacity: 0.7;
+}
+
+.ghoul img {
+  margin-top: 42px;
+  height: 300px;
+}
+
+#screen4 {
+  background-color: #8362c9;
+  padding-top: 80px;
+}
+
+.private_browsing, .notracking, .extension3, .bath {
+  text-align: center;
+}
+
+.private_browsing p {
+  font-family: Ubuntu;
+  font-weight: bold;
+  font-size: 3em;
+  color: white;
+  /*text-shadow: 0px 0px black;*/
+}
+
+.notracking p {
+  font-family: Ubuntu;
+  font-size: 1.4em;
+  color: white;
+  margin-top: 20px;
+  /*text-shadow: 0px 0px black;*/
+}
+
+.extension3 button {
+  margin-top: 30px;
+  background-color: #3f6650;
+  border: none;
+  font-weight: bold;
+}
+
+.extension3 button:hover, .extension3 button:active {
+  outline: none;
+  text-decoration: none;
+  background-color: #3f6650;
+  opacity: 0.7;
+}
+
+.bath img {
+  margin-top: 42px;
+  height: 300px;
+}
+
+#screen5 {
+  background-color: #9fe1f2;
+  padding-top: 80px;
+}
+
+.header2 #dismiss {
+  position: absolute;
+  margin-top: -20px;
+  right: 150px;
+  font-size: 1em;
+  color: gray;
+}
+
+.header2 p {
+  position: absolute;
+  margin-top: -20px;
+  right: 130px;
+  font-size: 1em;
+  color: gray;
+}
+
+.header2 #back {
+  position: absolute;
+  margin-top: -20px;
+  right: 20px;
+  font-size: 1em;
+  color: gray;
+}
+
+.switch, .must_switch, .extension4, .climber {
+  text-align: center;
+}
+
+.switch p {
+  font-family: Ubuntu;
+  font-weight: bold;
+  font-size: 3em;
+  color: #102556;
+  /*text-shadow: 0px 0px black;*/
+}
+
+.must_switch p {
+  font-family: Ubuntu;
+  font-size: 1.4em;
+  color: #102556;
+  margin-top: 20px;
+  /*text-shadow: 0px 0px black;*/
+}
+
+.extension4 button {
+  margin-top: 30px;
+  background-color: #3f6650;
+  border: none;
+  font-weight: bold;
+}
+
+.extension4 button:hover, .extension4 button:active {
+  outline: none;
+  text-decoration: none;
+  background-color: #3f6650;
+  opacity: 0.7;
+}
+
+.climber img {
+  margin-top: 69px;
+  height: 300px;
+}
+
+footer {
+  width: 100%;
+  position: absolute;
+  top: 3500px;
+  text-align: center;
+  padding: 10px;
+  color: #f7f7f7;
+  bottom: 10px;
+  left: 0;
+}
+footer > p {
+  color: black;
+}
